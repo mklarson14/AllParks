@@ -1,0 +1,31 @@
+.homepage {
+    text-align: center;
+    position: relative; 
+          
+}
+
+.favoritespage {
+    text-align: center;
+    position: relative; 
+  
+}
+
+.learnMorePage {
+    position: relative; 
+}
+.logo {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.title {
+    color: black;
+    font-size: larger;
+    margin-top: 0px;
+}
+.content {
+    background-color: rgba(229, 247, 210, 0.555);
+    
+}
+.parkTitle {
+    text-align: center;
+}
