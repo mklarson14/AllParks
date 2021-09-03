@@ -11,7 +11,12 @@
 }
 
 .learnMorePage {
-    position: relative; 
+    position: relative;
+    
+}
+.content {
+    background-color: rgba(229, 247, 210, 0.555);
+    
 }
 .logo {
     margin-top: 8px;
@@ -22,10 +27,7 @@
     font-size: larger;
     margin-top: 0px;
 }
-.content {
-    background-color: rgba(229, 247, 210, 0.555);
-    
-}
+
 .parkTitle {
     text-align: center;
 }

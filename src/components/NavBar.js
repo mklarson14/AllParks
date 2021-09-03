@@ -36,10 +36,10 @@ export default function NavBar() {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar className={classes.toolBar}>
-          <IconButton component={Link} to ='/' edge="start" className={classes.homeButton} color="inherit" aria-label="home">
+          <IconButton component={Link} to='/' edge="start" className={classes.homeButton} color="inherit" aria-label="home">
             <HomeIcon />
           </IconButton>
-          <IconButton component={Link} to ='/favorites' edge="start" className={classes.favoriteButton} color="inherit" aria-label="favorites">
+          <IconButton component={Link} to='/favorites' edge="start" className={classes.favoriteButton} color="inherit" aria-label="favorites">
             <FavoriteIcon />
           </IconButton>
         </Toolbar>

@@ -14,8 +14,8 @@ export default function ComboBox(props) {
                     id="combo-box-demo"
                     options={us50States}
                     getOptionLabel={(option) => option.state}
-                    style={{ width: 600 }}
-                    renderInput={(params) => <TextField {...params} label="By State..." variant="outlined"/>}
+                    style={{ width: 600, backgroundColor: 'white' }}
+                    renderInput={(params) => <TextField {...params} label="Search By State..." variant='outlined' />}
                     {...props}
                 />
               </Grid>

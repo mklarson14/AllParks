@@ -35,7 +35,6 @@ function HomePage() {
                  <h1>AllParks</h1>
                </div>
                <div className='searchBar'>
-                <p>Find A Park</p>
                 <ComboBox onChange={(e, value) => setSelectState(value)} />
                </div>
             </form>

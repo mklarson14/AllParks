@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# ### Introduction:
+Welcome to AllParks, in this app, users are able to search for any National Park, Monument or Public Lands by state.  Additionally, users can add parks that interest them in a favorites page. From the favorites page and the home page, users are able to preview park infomation. 
+</br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Check it out Here [Launch AllParks]()
 
-## Available Scripts
+</br>
 
-In the project directory, you can run:
+### Screenshots:
 
-### `npm start`
+</br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Landing Page
+![Landing Page](https://i.imgur.com/57vurCK.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Home Page
+![Home Page](https://i.imgur.com/Lt3AhiU.png)
 
-### `npm test`
+Favorites Page
+![Favorites Page](https://i.imgur.com/g41uoGb.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Learn More Page
+![Learn More Page](https://i.imgur.com/NHDt7sD.jpg)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+</br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Technologies used:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### AllParks is a React App that utilizes,
 
-### `npm run eject`
+    •	React, a JavaScript library for Building user interfaces
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    •	Node.js, an open-sourced, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    •	National Parks Service API: Docs at https://www.nps.gov/subjects/developer/api-documentation.htm#/parks
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    •	Material UI: Docs at https://material-ui.com/
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+</br>
 
-## Learn More
+### Future Goals:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    •	Add user authentication 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    •	Implement a database 
 
-### Code Splitting
+    •	Search using a specific park name 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  </br>
 
-### Analyzing the Bundle Size
+### References:
+1. https://www.sunset.com/travel/outdoor-adventure/89-north
+2. https://www.creativefabrica.com/product/ice-mountain-logo-beauty-sunset-color/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

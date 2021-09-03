@@ -13,7 +13,7 @@ import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import { IconButton } from '@material-ui/core';
 import { useDispatch, useSelector } from 'react-redux'
 import { actionRemovePark, actionSavePark } from '../redux/actions/favorites';
-//import { Delete } from '@material-ui/icons';
+
 
 
 const useStyles = makeStyles({
@@ -63,6 +63,7 @@ export default function ParkCard(props) {
         }
     }
 
+
     return (
 
         <Card className={classes.root}>
@@ -81,14 +82,11 @@ export default function ParkCard(props) {
                 </CardContent>
             </CardActionArea>
             <CardActions className={classes.cardActions}>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary" variant='outlined'>
                     <Link to={`/learnmore/${props.parkCode}`}>Learn More</Link>
                 </Button>
                 <IconButton onClick={()=> toggleSave(props)}>
-                    {isFavorite ? (<FavoriteIcon color="secondary" size="small" aria-label="like"/>):(<FavoriteBorderIcon color="secondary" size="small" aria-label="like"/>)}
-                    {/* {ifSelected ? (<FavoriteBorderIcon color="secondary" size="small" aria-label="like" />): (<Delete color="action" size="small" aria-label="delete"/>)*/}
-                    
-        
+                    {isFavorite ? (<FavoriteIcon color="secondary" size="small" aria-label="like"/>):(<FavoriteBorderIcon color="secondary" size="small" aria-label="like"/>)}                        
                 </IconButton>
                 
             </CardActions>

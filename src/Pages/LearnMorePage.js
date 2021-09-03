@@ -60,14 +60,9 @@ function LearnMorePage() {
                         {park.directionsInfo}
                     </Typography>
                 </Grid>
-
             </Container>
         </div>
     )
-
-
-
-
 }
 
 export default LearnMorePage
